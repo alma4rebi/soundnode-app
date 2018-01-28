@@ -93,3 +93,4 @@ curl -s https://packagecloud.io/install/repositories/JonasGroeger/soundnode/scri
 deb https://packagecloud.io/JonasGroeger/soundnode/ubuntu/ xenial main
 deb-src https://packagecloud.io/JonasGroeger/soundnode/ubuntu/ xenial main
 ```
+#Edit 2018 @alma4rebi
