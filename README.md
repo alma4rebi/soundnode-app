@@ -71,3 +71,25 @@ and Thanks to all [contributors](https://github.com/Soundnode/soundnode-app/grap
 ## License
 
 GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 [license](https://github.com/Soundnode/soundnode-app/blob/master/LICENSE.md).
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+curl -s https://packagecloud.io/install/repositories/JonasGroeger/soundnode/script.deb.sh | sudo bash
+
+## change repositories on linuxmint 18.*
+
+**go to**
+
+`sudo gedit /etc/apt/sources.list.d/JonasGroeger_soundnode.list`
+
+**#Delete or disable this repositories**
+
+#deb https://packagecloud.io/JonasGroeger/soundnode/linuxmint/ sylvia main
+#deb-src https://packagecloud.io/JonasGroeger/soundnode/linuxmint/ sylvia main
+
+**#change repositories** 
+
+```
+deb https://packagecloud.io/JonasGroeger/soundnode/ubuntu/ xenial main
+deb-src https://packagecloud.io/JonasGroeger/soundnode/ubuntu/ xenial main
+```
